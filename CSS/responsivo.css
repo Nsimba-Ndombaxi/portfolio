@@ -1,0 +1,119 @@
+@media screen and (max-width:900px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /*menu */
+    .menu-link a {
+        font-size: 16px;
+    }
+
+    .menu {
+        gap: 20px;
+
+    }
+
+    /* header */
+
+    .inicio {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .inicio img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .dados p {
+        font-size: 22px;
+    }
+
+    .dados span {
+        margin-left: 16px;
+    }
+
+
+
+    /* sobre mim */
+    .info {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info h2 {
+        font-size: 30px;
+    }
+
+    .mim {
+        width: 100%;
+    }
+
+
+    .mim p {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .mim button {
+        font-size: 18px;
+    }
+
+
+    .tecno {
+        width: 90%;
+        height: 70px;
+        gap: 0px;
+        border: 2px solid var(--secundaria);
+    }
+
+    .lingua p {
+        padding: 10px;
+        text-indent: 0;
+    }
+
+    .progresso {
+        height: 10px;
+      
+    }
+
+    .barra {
+        height: 8px;
+    }
+
+
+    /* projectos */
+    .sites {
+        width: 100%;
+    }
+
+    .projectos h2 {
+        margin-top: 25%;
+        font-size: 30px;
+    }
+
+    .card {
+        width: 90%;
+        height: 410px;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+
+    /* footer */
+
+    footer h2 {
+        font-size: 30px;
+    }
+
+    .contacto {
+        width: 100%;
+    }
+
+}
